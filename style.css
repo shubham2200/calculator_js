@@ -1,81 +1,112 @@
-body{
+body {
     background-color: #a9bd7e;
 }
-.cont{
-    margin-top: 5%;
-    margin-left: 35%;
+
+button{
+    width: 32%;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid black;
+    outline: none;
+    background-color:white;
+    font-weight: 500;
+    font-size:20px;
+}
+
+.first_line_btn{
+    background-color: gray;
+}
+.equal_btn{
+    background-color: blue;
+    color: white;
+}
+.button_size{
+    width: 100%;
+    padding: 0px;
+}
+.h_25{
+    height: 17%;
+}
+.h_75{
+    height: 77%;
+}
+.cont {
+    margin: 5% auto;
     background-color: whitesmoke;
     width: 35%;
-    height: 500px;
     text-align: center;
     border-radius: 4px;
+    max-width: 500px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
-#screen_c{
-    margin-top: 15px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #screen_c {
     font-size: 26px;
-    text-align: center;
+    text-align: end;
     background-color: #f1faeb;
-    float: left;
-}
-.operator{
-    float: left;
-    position: relative;
-    display: block;
-    background-color: #ff9fa8;
-    margin-bottom: 15px;
-
-        
-    top: 5px;
-    border: 0;
-    color: #495069;
-    background-color: lightgrey;
-    width: 90px;
-    height: 50px;
-    float: left;
-    margin: 5px;
-    margin-left: 4%;
-    font-size: 20px;
-    box-shadow: 0 4px rgba(0,0,0,0.2);
-}
-.value{
-    float: left;
-    position: relative;
-    display: block;
-    background-color: #ff9fa8;
-    margin-bottom: 15px;
-
-        
-    top: 5px;
-    border: 0;
-    color: #495069;
-    background-color: white;
-    width: 90px;
-    height: 50px;
-    float: left;
-    margin: 5px;
-    margin-left: 4%;
-    font-size: 20px;
-    
-
-}
-.ans{
-    float: left;
-    position: relative;
-    display: block;
-
-         
-    top: 5px;
-    border: 0;
-    color: #495069;
-    background-color: lightskyblue;
-    width: 90px;
-    height: 300px;
-    float: left;
-    margin: 5px;
-    margin-left: 4%;
-    font-size: 20px;
-    box-shadow: 0 4px rgba(0,0,0,0.2);
-}
-.but_cont{
-
-}
+    border: 2px solid rgb(182, 182, 182);
+    outline: none;
+} */
