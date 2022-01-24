@@ -17,25 +17,25 @@
         <input type="text" class=" w-100 p-2" name="screen" data-input id="screen_c" />
         <div class="d-flex justify-content-between">
             <div class="first_row d-flex justify-content-between flex-wrap col-9 p-1 mt-2">
-                <button class="first_line_btn opre" value="+" onclick="display('+')">+</button>
-                <button class="first_line_btn opre" value="-" onclick="display('-')">-</button>
-                <button class="first_line_btn opre" value="*" onclick="display('*')">*</button>
-                <button class="number" value=" 7 "  onclick="display('7')">7</button>
-                <button class="number" value=" 8 " onclick="display('8')">8</button>
-                <button class="number" value=" 9 " onclick="display('9')">9</button>
-                <button class="number" value=" 4 " onclick="display('4')">4</button>
-                <button class="number" value=" 5 " onclick="display('5')">5</button>
-                <button class="number" value=" 6 " onclick="display('6')">6</button>
-                <button class="number" value=" 1 " onclick="display('1')">1</button>
-                <button class="number" value=" 2 " onclick="display('2')">2</button>
-                <button class="number" value=" 3 " onclick="display('3')">3</button>
-                <button class="number" value=" 0 " onclick="display('0')">0</button>
-                <button class="number" value=" . " onclick="display('.')">.</button>
+                <button class="first_line_btn opre" value="+" onclick="GetInput()">+</button>
+                <button class="first_line_btn opre" value="-" onclick="GetInput()">-</button>
+                <button class="first_line_btn opre" value="*" onclick="GetInput()">*</button>
+                <button class="number" value="7"  onclick="GetInput()">7</button>
+                <button class="number" value="8" onclick="GetInput()">8</button>
+                <button class="number" value="9" onclick="GetInput()">9</button>
+                <button class="number" value="4" onclick="GetInput()">4</button>
+                <button class="number" value="5" onclick="GetInput()">5</button>
+                <button class="number" value="6" onclick="GetInput()">6</button>
+                <button class="number" value="1" onclick="GetInput()">1</button>
+                <button class="number" value="2" onclick="GetInput()">2</button>
+                <button class="number" value="3" onclick="GetInput()">3</button>
+                <button class="number" value="0" onclick="GetInput()">0</button>
+                <button class="number" value="." onclick="GetInput()">.</button>
                 <button class="clear" value="C" id="clear" onclick="clear()">c</button>
             </div>
             <div class="d-flex flex-column w-100 p-1 mt-2">
-                <button class="button_size first_line_btn h_25  opre" value="%" onclick="display('%')">%</button>
-                <button class="button_size  equal_btn col-3 h_75" id="result" onclick="result('=')">=</button>
+                <button class="button_size first_line_btn h_25  opre" value="/" onclick="GetInput()">%</button>
+                <button class="button_size  equal_btn col-3 h_75" id="result" >=</button>
             </div>
         </div>
     </div>
