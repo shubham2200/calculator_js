@@ -1,6 +1,5 @@
 function GetInput(){
-    //    let screen_value = document.getElementById('screen_c').value;
-    
+
 }
 
 $('.number').on('click' , function(){
@@ -47,39 +46,14 @@ $('#clear').on('click' , function(){
 });
 
 $('#result').on( 'click' , function(){
-    var screen_value = document.getElementById('screen_c').value
-    console.log(screen_value)
+    // var screen_value = document.getElementById('screen_c').value
+    // console.log(screen_value)
     
-    var arr = ['+','-','*','/'];
-    console.log(arr)
-    var Number = ['1','2','3','4','5','6','7','8','9','0']
-
-    // let ans = screen_value.split(arr)
-        var ans = [];
-        ans = screen_value.split('')
-
-        // console.log(ans)
-        for(i in ans){
-            if(ans[i] == '+'){
-                
-
-            }
-        }
-       
-
-
-    console.log(ans)
-    // for( i in Number){
-    //     let result = screen_value.split(Number[i])
-    //     console.log(result)
-
-    // }
-    // console.log(ans)
-    // ans.toString()
-    // let result = parseInt(ans[0]) + parseInt(ans[1])
-    // console.log(result)
-    // if(screen_value == '*' || screen_value == '/'){
-    //     if (screen_value == '*') {
+    // var arr = ['+','-','*','/'];
+    // console.log(arr) 
+    // var Number = ['1','2','3','4','5','6','7','8','9','0']
+    // if(screen_value != '*' || screen_value != '/'){
+    //     if (screen_value !=  '*') {
     //         let ans = screen_value.split('*')
     //         console.log('heelo multiple')
     //         console.log(ans)
@@ -87,12 +61,19 @@ $('#result').on( 'click' , function(){
     //         let result_multi = parseInt(ans[0]) * parseInt(ans[1])
     //         console.log(result_multi)
     //         if (screen_value != '/') {
+
     //             let ans = screen_value.split('/')
     //             console.log('hello divi ')
-    //             console.log(ans)
-    //             // ans.toString()
-    //             let result_divied = parseInt(ans[0]) / parseInt(ans[1])
-    //             console.log(result_divied)
+    //             // console.log(ans)
+    //             // // ans.toString()
+    //             let final_result = result_multi / parseInt(ans[1]) || parseInt(ans[0]) /  parseInt(ans[1])
+    //             console.log(final_result)
+    //             if(screen_value != '+'){
+    //                 let ans = screen_value.split('+')
+    //                 let data = result_multi + parseInt(ans[1]) || parseInt(ans[1]) + final_result
+    //                 console.log(data)
+
+    //             }
     //         }
 
 
@@ -103,6 +84,37 @@ $('#result').on( 'click' , function(){
      
     // }
   
+
+    // let ans = screen_value.split(arr)
+        // var ans = [];
+        // ans = screen_value.split('')
+
+        // console.log(ans)
+        // for(i in ans){
+        //     if(ans[i] == '+'){
+                
+
+        //     }
+        // }
+       
+
+
+    // console.log(ans) 
+    // for( i in Number){
+    //     let result = screen_value.split(Number[i])
+    //     console.log(result)
+
+    // }
+    // console.log(ans)
+    // ans.toString()
+    // let result = parseInt(ans[0]) + parseInt(ans[1])
+    // console.log(result)
+    
+    let screen_value = document.getElementById('screen_c').value
+    let data = eval(screen_value)
+    $('#screen_c').val(data)
+    // screen_value.innerHTML = eval(screen_value)
+    console.log(eval(screen_value))
     
 } )
 
